@@ -6,5 +6,5 @@ Testing nextflow inputs. Takes an input file and just runs `wc` on it to:
 
 To run:
 ```bash
-nextflow run DarianHole/test-nextflow/ --input <FILE>
+nextflow run DarianHole/test-nextflow --input <FILE>
 ```
