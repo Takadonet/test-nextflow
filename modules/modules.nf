@@ -1,7 +1,7 @@
 process wc_file_to_output {
     publishDir "${params.outdir}/"
 
-    container 'wbitt/network-multitool:latest'
+    container 'clarinpl/wccldict:latest'
 
     input:
     path(input)
@@ -16,7 +16,7 @@ process wc_file_to_output {
 }
 process wc_file_to_stdout {
 
-    container 'wbitt/network-multitool:latest'
+    container 'clarinpl/wccldict:latest'
 
     input:
     path(input)
